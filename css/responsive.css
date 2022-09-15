@@ -66,6 +66,6 @@
 /* BONUS */
 @media screen and (max-width: 1160px) {
     .container{
-        width: 90vw;
+        width: 100%;
     }
 }
