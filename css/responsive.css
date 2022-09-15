@@ -1,0 +1,64 @@
+/* Media Query Tablet-screen */
+@media screen and (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+}
+
+/* Media Query Mobile-screen */
+@media screen and (max-width: 480px) {
+    
+    /* Common */
+    .container{
+        width: 90%;
+        padding: 0px;
+    }
+
+    /* Header */
+    .site-header{
+        width: 100%;
+    }
+
+    /* LESSONS SECTION */
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col{
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    /* STEPS SECTION */
+    .steps{
+        margin: 0px;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin-bottom: 3em;
+        padding: 0px;
+    }
+
+    .steps .card .text{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* SECTION WHY US */
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0px;
+        padding: 2.5em 0;
+    }
+
+    .why-us .container .row .col-left {
+        width: 100%;
+    }
+
+    .why-us .container .row .col-right {
+        width: 100%;
+        margin-top: 3em;
+    }
+}
